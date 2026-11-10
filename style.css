@@ -1,0 +1,73 @@
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-bottom: 20px;  }
+
+  input:focus, select:focus, textarea:focus {
+  outline: 2px solid #0056b3;}
+
+label {
+  display: block; 
+  Margin-bottom: 8px;
+}
+
+button {
+  Background: #2196F3;
+  display : White text;
+  Padding: 12px 24px;
+
+}
+
+button:hover{
+  background-color: #0b7dda;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color:#f9f9f9;
+
+   }
+
+th , td { 
+  padding :12px 24px;
+  border: 1px solid #ccc;
+  text-align: left; 
+}   
+
+.table-container{
+  width:100%;
+  overflow-x: auto;
+
+}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+
+}
+
+tr:hover{
+  background-color:#f1f1f1,
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding : 0 1rem;
+  width :100%;
+}
+
+section, .form-section, .table-section{
+  margin-bottom:2.5rem;
+}
+
+input:focus, 
+select:focus, 
+textarea:focus {
+  outline: none;
+  border: 2px solid #1e90ff;
+  background-color: #f0f8ff; 
+}

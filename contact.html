@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Form</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form action="/submit-message" method="POST">
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for ='femail'>Email Adress:</label><br>
+    <input type ='text' id="femail" email="femail"><br>
+    <label for ='fphone'>Phone Number:</label><br>
+    <input type ='text' id="fphone" phone="fphone"><br>
+
+    <label for="subject">Choose a subject:</label><br>
+      <select id="subject" name="subject">
+        <option value="math">Mathematics</option>
+        <option value="science" selected>Science</option>
+        <option value="history">History</option>
+        <option value="english">English</option>
+      </select>
+       <div>
+
+          <label for="message">Your Message:</label>
+          <br>
+          <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..." required></textarea>
+          <br><br>
+          <button type="submit">Submit</button>
+          </form>
+        </div>
+
+     
+  </form>
+
+  <h2>Available Appointment Times </h2>
+
+  <table border ='1'>
+    
+    <tr>
+      <th>Date</th>
+      <th>Time Slot</th>
+      <th>Availability</th>
+    </tr>
+  
+
+    <tr>
+      <td>Monday, 16 Nov </td>
+      <td>09:00 AM - 11:00 AM</td>
+      <td> Not Available</td>
+    </tr>
+
+    <tr>
+      <td>Tuesday , 17 Nov </td>
+      <td> 12:30 AM - 14:00 PM </td>
+      <TD> Available </TD>
+    </tr>
+
+    <tr>
+      <td>Wednesday , 18 Nov</td>
+      <td> 10:00 AM - 12:30 AM</td>
+      <td> Not Available</td>
+    </tr>
+
+    <tr>
+      <td>Thursday , 20 Nov</td>
+      <td> 14:00 PM - 15:30 PM</td>
+      <td> Available </td>
+    </tr>
+
+    <tr> 
+      <td> Friday , 21 Nov </td>
+      <td> 09:00 AM - 11:30 AM</td>
+      <td> Available </td>
+    </tr>
+
+  </table>
+
+
+
+
+  
+</body>
+</html>
